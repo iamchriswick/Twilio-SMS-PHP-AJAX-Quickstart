@@ -106,6 +106,14 @@ $AccountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $AuthToken = "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY";
 ```
 
+**5.2:** If your Twilio account was created before July 13, 2012, it is using a shared *“Sandbox”* number while in trial mode. If you want a unique phone number for your account, which you can keep even after you upgrade, [get one here](https://www.twilio.com/signup/number). Twilio encourage you to do this, since using the shared Sandbox number has several restrictions that don’t apply to user Twilio phone numbers normally.
+
+Open **send-sms.php** and enter your **Twilio number**.
+
+```php
+$twilioFromNumber = "YYY-YYY-YYYY";
+```
+
 ##Reporting Issues##
 
 We would love to hear your feedback. Report issues using the [Github Issue Tracker](https://github.com/iamchriswick/Twilio-SMS-PHP-AJAX-Quickstart/issues).
