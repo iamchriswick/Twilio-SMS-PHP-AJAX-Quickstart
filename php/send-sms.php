@@ -27,7 +27,6 @@ $client = new Services_Twilio($AccountSid, $AuthToken);
 // Get JSON variables sendt via AJAX
 $number = (string) $_POST['number'];
 $smsContent = (string) $_POST['smsContent'];
-$dealURL = (string) $_POST['dealURL'];
 
 try {
 	$sms = $client->account->messages->sendMessage(
