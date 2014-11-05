@@ -9,10 +9,10 @@ header("content-type: Access-Control-Allow-Methods: GET");
 header("content-type: Access-Control-Allow-Methods: POST");
 
 // Step 3.2: Include ChromePhp
-include 'vendor/chromephp/ChromePhp.php';
+include '../vendor/chromephp/ChromePhp.php';
 
 // Step 4.2: Require the Twilio-PHP library
-require "vendor/twilio/twilio-php/Services/Twilio.php";
+require "../vendor/twilio/twilio-php/Services/Twilio.php";
 
 // Step 5.1: Set our AccountSid and AuthToken from www.twilio.com/user/account
 $AccountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
