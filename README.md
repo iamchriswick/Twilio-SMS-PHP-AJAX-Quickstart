@@ -63,7 +63,7 @@ include '/path/to/ChromePhp.php';
 ```
 
 ####Step 4: twilio-php####
-You can install twilio-php via Git or by downloading the source.
+**4.1:** You can install twilio-php via Git or by downloading the source.
 #####Via Git:#####
 Open a command line, navigate to your project directory and use this command to clone the **twilio-php** library:
 
@@ -72,7 +72,9 @@ Open a command line, navigate to your project directory and use this command to 
 #####Via ZIP file:#####
 [Click here to download the source (.zip)](https://github.com/twilio/twilio-php/zipball/master) which includes all dependencies.
 
-Once you download the library, move the twilio-php folder to your project directory and then include the library file in **twilio-sms.php**:
+Once you download the library, move the twilio-php folder to your project directory.
+
+**4.2:** Include the library file in **twilio-sms.php**:
 
 ```php
 require '/path/to/twilio-php/Services/Twilio.php';
