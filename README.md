@@ -22,12 +22,35 @@ While it's not required, we recommend that you use **Google Chrome** during deve
 ##Installation##
 Thees instructions presume that you have **Google Chrome** installed to your system and that you already have a Webserver with **PHP** set up.
 
+###Automatic###
+####Chrome Logger####
+1. Install the **Chrome Logger** extension for **Google Chrome** from: https://chrome.google.com/extensions/detail/noaneddfkdjfnfdakjjmocngnfkfehhd
+2. Click the extension icon in the browser to enable it for the current tab's domain
+
+####Twilio-SMS-PHP-AJAX-Quickstart####
+You can install **Twilio-SMS-PHP-AJAX-Quickstart** via Git or by downloading the source.
+#####Via Git:#####
+Open a command line and use this command to clone the **Twilio-SMS-PHP-AJAX-Quickstart**:
+
+`$ git clone https://github.com/iamchriswick/Twilio-SMS-PHP-AJAX-Quickstart.git`
+
+#####Via ZIP file:#####
+[Click here to download the source (.zip)](https://github.com/iamchriswick/Twilio-SMS-PHP-AJAX-Quickstart/archive/master.zip) which includes all dependencies.
+
+Once you download the library, you're good to go!
+
+###Manual###
 ####Chrome Logger####
 1. Install the **Chrome Logger** extension for **Google Chrome** from: https://chrome.google.com/extensions/detail/noaneddfkdjfnfdakjjmocngnfkfehhd
 2. Click the extension icon in the browser to enable it for the current tab's domain
 
 ####ChromePhp####
-3. Put **ChromePhp.php** somewhere in your PHP include path
+3. Put **ChromePhp.php** somewhere in your project directory.
+4. Include **ChromePhp.php** in **twilio-sms.php**:
+
+```php
+include '/path/to/ChromePhp.php';
+```
 
 ####twilio-php####
 You can install twilio-php via Git or by downloading the source.
@@ -41,7 +64,9 @@ Open a command line, navigate to your project directory and use this command to 
 
 Once you download the library, move the twilio-php folder to your project directory and then include the library file in **twilio-sms.php**:
 
-`require '/path/to/twilio-php/Services/Twilio.php';`
+```php
+require '/path/to/twilio-php/Services/Twilio.php';
+```
 
 ##Reporting Issues##
 
