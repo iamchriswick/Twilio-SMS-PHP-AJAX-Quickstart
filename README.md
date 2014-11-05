@@ -37,7 +37,7 @@ Open a command line and use this command to clone the **Twilio-SMS-PHP-AJAX-Quic
 #####Via ZIP file:#####
 [Click here to download the source (.zip)](https://github.com/iamchriswick/Twilio-SMS-PHP-AJAX-Quickstart/archive/master.zip) which includes all dependencies.
 
-Once you download the library, you're good to Step 5!
+Once you download the library, go to Step 5!
 
 ###Manual###
 ####Step 1: Chrome Logger####
@@ -55,8 +55,24 @@ Open a command line and use this command to clone the **Twilio-SMS-PHP-AJAX-Quic
 [Click here to download the source (.zip)](https://github.com/iamchriswick/Twilio-SMS-PHP-AJAX-Quickstart/archive/master.zip) which includes all dependencies.
 
 ####Step 3: ChromePhp####
-1. Put **ChromePhp.php** somewhere in your project directory.
-2. Include **ChromePhp.php** in **twilio-sms.php**:
+**3.1:** You can install ChromePhp via Git or by downloading the source.
+#####Via Git:#####
+Open a command line, navigate to your project directory and use this command to create a ChromePhp directory:
+
+`$ mkdir ChromePhp`
+
+Navigate to your **ChromePhp directory** and use this command to clone the **ChromePhp**:
+
+`$ git clone https://github.com/ccampbell/chromephp.git`
+
+#####Via ZIP file:#####
+[Click here to download the source (.zip)](https://github.com/ccampbell/chromephp/archive/master.zip).
+
+Put **ChromePhp.php** somewhere in your project directory.
+
+**3.2:**
+
+Include **ChromePhp.php** in **twilio-sms.php**:
 
 ```php
 include '/path/to/ChromePhp.php';
@@ -79,6 +95,9 @@ Once you download the library, move the twilio-php folder to your project direct
 ```php
 require '/path/to/twilio-php/Services/Twilio.php';
 ```
+
+####Step 5: twilio-php####
+
 
 ##Reporting Issues##
 
