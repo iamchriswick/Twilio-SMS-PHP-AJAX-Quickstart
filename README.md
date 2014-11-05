@@ -114,6 +114,8 @@ Open **send-sms.php** and enter your **Twilio number**.
 $twilioFromNumber = "YYY-YYY-YYYY";
 ```
 
+and you're good to go!
+
 ##Reporting Issues##
 
 We would love to hear your feedback. Report issues using the [Github Issue Tracker](https://github.com/iamchriswick/Twilio-SMS-PHP-AJAX-Quickstart/issues).
