@@ -37,7 +37,7 @@ Open a command line and use this command to clone the **Twilio-SMS-PHP-AJAX-Quic
 #####Via ZIP file:#####
 [Click here to download the source (.zip)](https://github.com/iamchriswick/Twilio-SMS-PHP-AJAX-Quickstart/archive/master.zip) which includes all dependencies.
 
-Once you download the library, go to Step 5!
+Once you download the library, go to [Step 5](https://github.com/iamchriswick/Twilio-SMS-PHP-AJAX-Quickstart#step-5-twilio-settings)!
 
 ###Manual###
 ####Step 1: Chrome Logger####
