@@ -114,6 +114,7 @@ Open **send-sms.php** and enter your **Twilio number**.
 $twilioFromNumber = "YYY-YYY-YYYY";
 ```
 
+
 and you're good to go!
 
 ##Reporting Issues##
