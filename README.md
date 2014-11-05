@@ -97,12 +97,11 @@ require '/path/to/twilio-php/Services/Twilio.php';
 ```
 
 ####Step 5: Twilio Settings####
-5.1: Go to your [Twilio Dashboard](https://www.twilio.com/user/account) and find your **ACCOUNT SID** and **AUTH TOKEN**.
+**5.1:** Go to your [Twilio Dashboard](https://www.twilio.com/user/account) and find your **ACCOUNT SID** and **AUTH TOKEN**.
 
 Open **send-sms.php** and enter your **ACCOUNT SID** and **AUTH TOKEN**.
 
 ```php
-// Step 5.1: Set our AccountSid and AuthToken from www.twilio.com/user/account
 $AccountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $AuthToken = "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY";
 ```
